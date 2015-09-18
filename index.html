@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>share</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="shared.css">
+    <script src="shared.js"></script>
+
+</head>
+
+<body>
+   <!-- Setting Community -->
+  <div id="greeting"></div>
+
+  <!-- Default Community -->
+  <div id="greeting2"></div>
+
+   <script>
+     $(document).ready(function(){
+		//Setting Community
+       $("#greeting").share({shared:['facebook','twitter','google','linkedin','tumblr','digg','reddit','pinterest','stumbleupon','email']});
+		//Default Community
+       $("#greeting2").share();
+     })
+   </script>
+</body>
+</html>
