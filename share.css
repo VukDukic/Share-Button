@@ -1,0 +1,98 @@
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+.shared {
+margin: 2px;
+display: inline-block;
+font: normal normal normal 16px/1 FontAwesome;
+font-size: 2em;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-decoration: none;
+color: rgba(160, 157, 179, 0.49);
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.shared:hover {
+opacity: 1;
+filter:Alpha(Opacity=100);
+color: #333335;
+font-size: 2em;	
+background:rgba(160, 157, 179, 0.39)
+}
+
+.digg:before  {
+content: "\f1a6";
+padding-left: 10px;
+padding-right: 10px;   
+}
+
+.email:before  {
+content: "\f064";
+padding-left: 10px;
+padding-right: 10px;   
+}
+.flickr:before  {
+content: "\f16e";
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.foursquare:before  {
+content: "\f180";
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.facebook:before  {
+content: "\f09a";
+padding-left: 16px;
+padding-right: 16px;
+}
+
+.twitter:before  {
+content: "\f099";
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.tumblr:before  {
+content: "\f173";
+padding-left: 16px;
+padding-right: 16px;
+}
+
+.linkedin:before  {
+content: "\f0e1";
+padding-left: 12px;
+padding-right: 12px;   
+}
+
+.instagram:before  {
+content: "\f16d";
+padding-left: 10px;
+padding-right: 10px;	
+}
+.pinterest:before {
+content: "\f0d2";
+padding-left: 12px;
+padding-right: 12px;   
+}
+
+.reddit:before  {
+content: "\f1a1";
+padding-left: 10px;
+padding-right: 10px;   
+}
+
+.google:before  {
+content: "\f0d5";
+padding-left: 10px;
+padding-right: 10px;	 
+}
+
+.stumbleupon:before  {
+content: "\f1a4";
+padding-left: 10px;
+padding-right: 10px;	 
+}
